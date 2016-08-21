@@ -1,6 +1,6 @@
 # Discipline Approval
 
-Check if you passed in the discipline with your grades
+Check if you passed in the discipline with your grades.
 
 ## Rules
 
@@ -10,10 +10,10 @@ Check if you passed in the discipline with your grades
 
 ## Development
 
-- Clone the repository
+- Clone the repository.
 - Import it in Xamarin Studio or Visual Studio with Xamarin Plug-in.
-- Run it in Android Simulator
+- Run it in Android Simulator.
 
 ## Screenshots
 
-Pending
+Pending.
