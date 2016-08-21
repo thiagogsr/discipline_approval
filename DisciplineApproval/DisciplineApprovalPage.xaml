@@ -16,7 +16,7 @@
 			   Keyboard="Numeric"/>
 		
         <Button Text="Passei?" TextColor="White"
-                BackgroundColor="#77D065"
+                BackgroundColor="#a3d179"
 				Clicked="CheckApprovation"/>
 
 		<Label x:Name="result"
