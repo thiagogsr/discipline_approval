@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisciplineApproval", "DisciplineApproval\DisciplineApproval.csproj", "{CEA4B1EA-F0A5-4885-931D-CA5ECEC5C8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisciplineApproval.Droid", "Droid\DisciplineApproval.Droid.csproj", "{71487558-0DC1-4FC5-AC72-C05F48AC3414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEA4B1EA-F0A5-4885-931D-CA5ECEC5C8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA4B1EA-F0A5-4885-931D-CA5ECEC5C8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA4B1EA-F0A5-4885-931D-CA5ECEC5C8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA4B1EA-F0A5-4885-931D-CA5ECEC5C8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71487558-0DC1-4FC5-AC72-C05F48AC3414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71487558-0DC1-4FC5-AC72-C05F48AC3414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71487558-0DC1-4FC5-AC72-C05F48AC3414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71487558-0DC1-4FC5-AC72-C05F48AC3414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
