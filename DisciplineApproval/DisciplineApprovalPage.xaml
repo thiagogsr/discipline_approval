@@ -1,4 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DisciplineApproval" x:Class="DisciplineApproval.DisciplineApprovalPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="DisciplineApproval.DisciplineApprovalPage">
+    <StackLayout Spacing="20" Padding="20">
+		<Image Source="success.png"
+			   HorizontalOptions="Center" />
+
+		<Entry x:Name="firstGradeEntry"
+			   Placeholder="Nota da Primeira Unidade"
+               Text="{Binding firstGrade}"
+			   Keyboard="Numeric"/>
+
+		<Entry x:Name="lastGradeEntry"
+			   Placeholder="Nota da Segunda Unidade"
+			   Keyboard="Numeric"/>
+		
+        <Button Text="Passei?" TextColor="White"
+                BackgroundColor="#77D065"
+				Clicked="CheckApprovation"/>
+
+		<Label x:Name="result"
+			   Font="Large"
+			   HorizontalTextAlignment="Center" />
+    </StackLayout>
 </ContentPage>
