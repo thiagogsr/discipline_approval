@@ -11,6 +11,13 @@ namespace DisciplineApproval
 
 		void CheckApprovation(object sender, System.EventArgs e)
 		{
+			if (firstGradeEntry.Text == null || lastGradeEntry.Text == null ||
+			    firstGradeEntry.Text.Trim().Equals("") || lastGradeEntry.Text.Trim().Equals(""))
+			{
+				result.Text = "Informe as duas notas.";
+				return;
+			}
+
 			double firstGrade = double.Parse(firstGradeEntry.Text);
 			double lastGrade = double.Parse(lastGradeEntry.Text);
 
