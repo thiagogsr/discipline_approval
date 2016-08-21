@@ -11,15 +11,17 @@ namespace DisciplineApproval
 
 		void CheckApprovation(object sender, System.EventArgs e)
 		{
-			if (firstGradeEntry.Text == null || lastGradeEntry.Text == null ||
-			    firstGradeEntry.Text.Trim().Equals("") || lastGradeEntry.Text.Trim().Equals(""))
+			double firstGrade;
+			double lastGrade;
+
+			bool isFirstGradeValid = double.TryParse(firstGradeEntry.Text, out firstGrade);
+			bool isLastGradeValid = double.TryParse(lastGradeEntry.Text, out lastGrade);
+
+			if (!isFirstGradeValid || !isLastGradeValid)
 			{
 				result.Text = "Informe as duas notas.";
 				return;
 			}
-
-			double firstGrade = double.Parse(firstGradeEntry.Text);
-			double lastGrade = double.Parse(lastGradeEntry.Text);
 
 			double finalAvg = (firstGrade * 0.4) + (lastGrade * 0.6);
 
